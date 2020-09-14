@@ -32,7 +32,8 @@ class Favorite extends StatelessWidget {
                               children: [
                                 Image.asset(
                                   anime[index]["imagem"],
-                                  width: 120,
+                                  width: 1000,
+                                  height: 80,
                                 ),
                                 ListTile(
                                   title: Text(
@@ -64,7 +65,8 @@ class Favorite extends StatelessWidget {
                               children: [
                                 Image.asset(
                                   rock[index]["imagem"],
-                                  width: 120,
+                                  width: 1000,
+                                  height: 80,
                                 ),
                                 ListTile(
                                   title: Text(
@@ -96,7 +98,8 @@ class Favorite extends StatelessWidget {
                               children: [
                                 Image.asset(
                                   funk[index]["imagem"],
-                                  width: 120,
+                                  width: 1000,
+                                  height: 80,
                                 ),
                                 ListTile(
                                   title: Text(
@@ -128,7 +131,8 @@ class Favorite extends StatelessWidget {
                               children: [
                                 Image.asset(
                                   sertanejo[index]["imagem"],
-                                  width: 120,
+                                  width: 1000,
+                                  height: 80,
                                 ),
                                 ListTile(
                                   title: Text(
