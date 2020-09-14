@@ -45,7 +45,11 @@ class _HomeState extends State<Home> {
                               borderOnForeground: false,
                               child: Column(
                                 children: [
-                                  Image.asset("${anime[index]["imagem"]}"),
+                                  Image.asset(
+                                    "${anime[index]["imagem"]}",
+                                    width: 1000,
+                                    height: 80,
+                                  ),
                                   ListTile(
                                     title: Text("${anime[index]["nome"]}"),
                                     subtitle: Text("${anime[index]["autor"]}"),
@@ -103,7 +107,11 @@ class _HomeState extends State<Home> {
                           child: Card(
                               child: Column(
                             children: [
-                              Image.asset("${rock[index]["imagem"]}"),
+                              Image.asset(
+                                "${rock[index]["imagem"]}",
+                                width: 1000,
+                                height: 80,
+                              ),
                               ListTile(
                                 title: Text("${rock[index]["nome"]}"),
                                 subtitle: Text("${rock[index]["autor"]}"),
@@ -155,7 +163,11 @@ class _HomeState extends State<Home> {
                           child: Card(
                               child: Column(
                             children: [
-                              Image.asset("${funk[index]["imagem"]}"),
+                              Image.asset(
+                                "${funk[index]["imagem"]}",
+                                height: 80,
+                                width: 1000,
+                              ),
                               ListTile(
                                 title: Text("${funk[index]["nome"]}"),
                                 subtitle: Text("${funk[index]["autor"]}"),
@@ -207,7 +219,11 @@ class _HomeState extends State<Home> {
                           child: Card(
                               child: Column(
                             children: [
-                              Image.asset("${sertanejo[index]["imagem"]}"),
+                              Image.asset(
+                                "${sertanejo[index]["imagem"]}",
+                                height: 80,
+                                width: 1000,
+                              ),
                               ListTile(
                                 title: Text("${sertanejo[index]["nome"]}"),
                                 subtitle: Text("${sertanejo[index]["autor"]}"),

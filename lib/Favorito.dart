@@ -31,7 +31,7 @@ class Favorite extends StatelessWidget {
                                 child: Column(
                               children: [
                                 Image.asset(
-                                  "assets/anime.jpeg",
+                                  anime[index]["imagem"],
                                   width: 120,
                                 ),
                                 ListTile(
@@ -63,7 +63,7 @@ class Favorite extends StatelessWidget {
                                 child: Column(
                               children: [
                                 Image.asset(
-                                  "assets/anime.jpeg",
+                                  rock[index]["imagem"],
                                   width: 120,
                                 ),
                                 ListTile(
@@ -95,7 +95,7 @@ class Favorite extends StatelessWidget {
                                 child: Column(
                               children: [
                                 Image.asset(
-                                  "assets/anime.jpeg",
+                                  funk[index]["imagem"],
                                   width: 120,
                                 ),
                                 ListTile(
@@ -127,7 +127,7 @@ class Favorite extends StatelessWidget {
                                 child: Column(
                               children: [
                                 Image.asset(
-                                  "assets/anime.jpeg",
+                                  sertanejo[index]["imagem"],
                                   width: 120,
                                 ),
                                 ListTile(
