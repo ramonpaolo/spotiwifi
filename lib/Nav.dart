@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:musica/Favorito.dart';
 import 'package:musica/Home.dart';
 import 'package:musica/User.dart';
-import './Autor.dart';
+import 'package:musica/Autor.dart';
 
 class Nav extends StatefulWidget {
   @override
@@ -15,7 +16,8 @@ class _NavState extends State<Nav> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.grey[900],
-        body: Row(
+        body: Container(
+            child: Row(
           children: [
             NavigationRail(
               minWidth: 10,
@@ -28,7 +30,7 @@ class _NavState extends State<Nav> {
                     icon: Icon(Icons.home, color: Colors.white),
                     label: Text(
                       "Home",
-                      style: TextStyle(color: Colors.white, fontSize: 10),
+                      style: TextStyle(color: Colors.white),
                     )),
                 NavigationRailDestination(
                   icon: Icon(
@@ -44,6 +46,14 @@ class _NavState extends State<Nav> {
                   ),
                   label: Text("User", style: TextStyle(color: Colors.white)),
                 ),
+                NavigationRailDestination(
+                  icon: Icon(
+                    Icons.favorite,
+                    color: Colors.white,
+                  ),
+                  label:
+                      Text("Favorite", style: TextStyle(color: Colors.white)),
+                ),
               ],
               selectedIndex: _selectedIndex,
               onDestinationSelected: (value) {
@@ -56,8 +66,10 @@ class _NavState extends State<Nav> {
                 ? Home()
                 : _selectedIndex == 1
                     ? Autor()
-                    : _selectedIndex == 2 ? User() : Text("")
+                    : _selectedIndex == 2
+                        ? User()
+                        : _selectedIndex == 3 ? Favorite() : Text("")
           ],
-        ));
+        )));
   }
 }

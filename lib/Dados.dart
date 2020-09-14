@@ -6,7 +6,7 @@ List anime = [
     "anime": "Attack on Titan",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
   {
     "nome": "CHOUZETSU DYNAMIC",
@@ -33,7 +33,7 @@ List anime = [
     "anime": "Naruto Shippuden",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
 ];
 
@@ -44,7 +44,7 @@ List sertanejo = [
     "lancamento": "2017",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
   {
     "nome": "Jenifer",
@@ -52,7 +52,7 @@ List sertanejo = [
     "lancamento": "2018",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
   {
     "nome": "Terra sem CEP",
@@ -103,7 +103,7 @@ List funk = [
     "lancamento": "2014",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
 ];
 
@@ -114,7 +114,7 @@ List rock = [
     "lancamento": "1979",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
   {
     "nome": "Back in Back",
@@ -122,7 +122,7 @@ List rock = [
     "lancamento": "1980",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
   {
     "nome": "We Will Rock You",
@@ -130,7 +130,7 @@ List rock = [
     "lancamento": "1977",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
   {
     "nome": "Rock And Roll All Nite",
@@ -138,6 +138,6 @@ List rock = [
     "lancamento": "1975",
     "imagem": "assets/Blue_Bird.png",
     "selected": false,
-    "favorite": false
+    "favorite": true
   },
 ];

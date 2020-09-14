@@ -8,9 +8,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  bool favorite = false;
-  Color cor = Colors.black;
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -22,7 +19,7 @@ class _HomeState extends State<Home> {
             height: 50,
           ),
           Text(
-            "Abertura de Anime",
+            "Anime",
             style: TextStyle(color: Colors.white, fontSize: 24),
           ),
           SizedBox(
@@ -185,7 +182,7 @@ class _HomeState extends State<Home> {
                 }),
           ),
           Text(
-            "Seranejo",
+            "Sertanejo",
             style: TextStyle(color: Colors.white, fontSize: 24),
           ),
           SizedBox(
